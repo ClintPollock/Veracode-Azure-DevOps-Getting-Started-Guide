@@ -1,5 +1,5 @@
 # Veracode-Azure-DevOps-Guide
-How to get started with Veracode scanning and your code and Azure DevOps.
+How to get started with Veracode security scanning in Azure DevOps.
 
 For this example we will demonstrate a Static + Software Composition Analysis Policy scan.
 
@@ -12,12 +12,12 @@ https://github.com/veracode/verademo-dotnet
 * Build code / create artifact
 * Scan
 
-## Configuration Steps:
+## Configuration Steps
 * Create project
 * Import code
-* Set API keys
-* Paste in example yaml 
-
+* Create API key variables
+* Paste in example yml 
+* For convenience, disable continuous integration
 
 ### Getting Started
 Create a new project, click Repos, and then click Import.  
@@ -25,8 +25,8 @@ Import the https://github.com/veracode/verademo-dotnet repo.
 
 ![Create Project](images/ADO-Getting-Started-1.png)
 
-Click setup build and paste in the below YML.
-The example yaml will checkout the code, build the app, and submit the application for a Static Policy and Software Composition Analysis scan.
+Click the Setup Build button and paste in the below YML.
+The example yml will checkout the code, build the app, and submit the application for a Static + Software Composition Analysis Policy scan.
 
 ![Setup Build](images/ADO-Getting-Started-2.png)
 
@@ -92,10 +92,16 @@ Log into the Veracode platform to see the results.
 
 ## To go further, leverage the following plugins -
 
+
 Official Veracode Azure DevOps plugin:
 Enables Static/SCA Policy, Sandbox, and work items import.
+
+
 https://marketplace.visualstudio.com/items?itemName=Veracode.veracode-vsts-build-extension
 
+Video Overview:
+
+[<img alt="Veracode Azure DevOps Plugin Demo Video" src="images/Veracode-Azure-DevOps-Guide-Video.png" />](https://ezwp.tv/V3HIBkl8)
 
 Veracode Static Pipeline Scanner in Azure DevOps
 
