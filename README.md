@@ -1,7 +1,7 @@
 # Veracode-Azure-DevOps-Guide
-How to get started with Veracode scanning and your code and AzureDevOps.
+How to get started with Veracode scanning and your code and Azure DevOps.
 
-For this example we will demonstrate a Static + Software Composition Analysis scan.
+For this example we will demonstrate a Static + Software Composition Analysis Policy scan.
 
 We can use VeraDemoDotNet for this example.
 
