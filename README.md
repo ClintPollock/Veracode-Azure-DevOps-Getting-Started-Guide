@@ -25,7 +25,7 @@ Import the https://github.com/veracode/verademo-dotnet repo.
 
 ![Create Project](images/ADO-Getting-Started-1.png)
 
-Click the Setup Build button and paste in the below YML.
+Click the Setup Build button and paste in the below yml.
 The example yml will checkout the code, build the app, and submit the application for a Static + Software Composition Analysis Policy scan.
 
 ![Setup Build](images/ADO-Getting-Started-2.png)
@@ -93,9 +93,8 @@ Log into the Veracode platform to see the results.
 ## To go further, leverage the following plugins -
 
 
-Official Veracode Azure DevOps plugin:
+### Official Veracode Azure DevOps plugin:
 Enables Static/SCA Policy, Sandbox, and work items import.
-
 
 https://marketplace.visualstudio.com/items?itemName=Veracode.veracode-vsts-build-extension
 
@@ -103,6 +102,6 @@ Video Overview:
 
 [<img alt="Veracode Azure DevOps Plugin Demo Video" src="images/Veracode-Azure-DevOps-Guide-Video.png" />](https://ezwp.tv/V3HIBkl8)
 
-Veracode Static Pipeline Scanner in Azure DevOps
+### Veracode Static Pipeline Scanner in Azure DevOps
 
 https://marketplace.visualstudio.com/items?itemName=JulianTotzek-Hallhuber.VeracodePipelineScan
